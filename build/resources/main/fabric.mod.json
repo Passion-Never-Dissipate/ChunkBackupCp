@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "cbcp",
+  "version": "1.0-SNAPSHOT",
+  "name": "CbCp",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "client.CbCpClient"
+    ],
+    "Server": [
+      "CbCpServer.CbCpServer"
+    ]
+  },
+  "mixins": [
+    "CbCp.mixins.json",
+    {
+      "config" :"CbCp.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "fabric": "*",
+    "minecraft": "1.20.4"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "CbCpServer.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "Server.getPlayerLeftClicks",
+    "Server.getPlayerRightClicks"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

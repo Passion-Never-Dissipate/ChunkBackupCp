@@ -1,0 +1,20 @@
+{
+  "mappings": {
+    "CbCpServer/mixins/Server/getPlayerLeftClicks": {
+      "onPlayerAction": "Lnet/minecraft/class_3244;method_12066(Lnet/minecraft/class_2846;)V"
+    },
+    "CbCpServer/mixins/Server/getPlayerRightClicks": {
+      "onPlayerInteractBlock": "Lnet/minecraft/class_3244;method_12046(Lnet/minecraft/class_2885;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "CbCpServer/mixins/Server/getPlayerLeftClicks": {
+        "onPlayerAction": "Lnet/minecraft/class_3244;method_12066(Lnet/minecraft/class_2846;)V"
+      },
+      "CbCpServer/mixins/Server/getPlayerRightClicks": {
+        "onPlayerInteractBlock": "Lnet/minecraft/class_3244;method_12046(Lnet/minecraft/class_2885;)V"
+      }
+    }
+  }
+}
