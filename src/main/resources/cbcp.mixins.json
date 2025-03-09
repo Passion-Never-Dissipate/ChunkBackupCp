@@ -7,6 +7,9 @@
     "Server.getPlayerLeftClicks",
     "Server.getPlayerRightClicks"
   ],
+  "client": [
+    "Client.GetPlayerControls"
+  ],
   "injectors": {
     "defaultRequire": 1
   }
